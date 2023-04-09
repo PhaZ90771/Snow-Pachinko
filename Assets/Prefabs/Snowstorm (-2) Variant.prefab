@@ -16,6 +16,10 @@ PrefabInstance:
       propertyPath: InitialModule.startSpeed.scalar
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 4829708004583894162, guid: 8e33a3f2ed5f0a6478e43ab77bb828d4, type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 6249817032215483626, guid: 8e33a3f2ed5f0a6478e43ab77bb828d4, type: 3}
       propertyPath: m_Name
       value: Snowstorm (-2) Variant

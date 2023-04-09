@@ -37,6 +37,7 @@ public class SnowflakeSpawner : MonoBehaviour
         lastSpawn = Time.time;
     }
 
+#if UNITY_EDITOR
     private void OnDrawGizmosSelected()
     {
         Color gizmoColor = Color.green;
@@ -69,4 +70,5 @@ public class SnowflakeSpawner : MonoBehaviour
         var rightBracketBottom = new Vector2(rightX, bottomY);
         Gizmos.DrawLine(rightBracketTop, rightBracketBottom);
     }
+#endif
 }
